@@ -36,16 +36,33 @@ while True :
 
 '''
 
+import rclpy
+from rclpy.node import Node
+from std_msgs.msg import String
+import time
 import roboidai as ai
-import rclpy 
 
 tmi = ai.TmImage()
 tmi.load_model('/home/k/DICE/converted_keras')
 
 cam = ai.Camera('ip0',square=True)
 
-label = tmi.get_label()
-conf = tmi.get_conf()
-new_label = str(label)
+print("countdown on")
+cam.count_down(5)
+print("countdown off =")
+
+
+ 
+image = cam.read()
+if tmi.predict(image):
+    label = tmi.get_label()
+    conf = tmi.get_conf()
+    if conf > 0.8   :
+        print(label, conf)
+    
+
+    cam.show(image)
+   
+    
 
 

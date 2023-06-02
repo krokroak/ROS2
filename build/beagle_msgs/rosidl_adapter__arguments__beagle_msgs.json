@@ -1,0 +1,8 @@
+{
+  "package_name": "beagle_msgs",
+  "non_idl_tuples": [
+    "/home/k/robo/src/beagle_msgs:msg/CmdAndPoseVel.msg",
+    "/home/k/robo/src/beagle_msgs:action/Distbeagle.action",
+    "/home/k/robo/src/beagle_msgs:srv/Beagleposition.srv"
+  ]
+}

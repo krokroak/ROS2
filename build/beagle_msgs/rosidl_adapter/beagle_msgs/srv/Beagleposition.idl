@@ -1,0 +1,27 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from beagle_msgs/srv/Beagleposition.srv
+// generated code does not contain a copyright notice
+
+
+module beagle_msgs {
+  module srv {
+    @verbatim (language="comment", text=
+      "request")
+    struct Beagleposition_Request {
+      string dice_label;
+
+      int64 user_fir;
+
+      int64 user_sec;
+    };
+    @verbatim (language="comment", text=
+      "response")
+    struct Beagleposition_Response {
+      int64 move_point;
+
+      int32 beagle_event;
+
+      int32 beagle_position;
+    };
+  };
+};

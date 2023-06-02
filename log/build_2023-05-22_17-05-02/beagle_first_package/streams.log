@@ -1,0 +1,28 @@
+[0.704s] Invoking command in '/home/k/robo/src/beagle_first_package': PYTHONPATH=/home/k/robo/build/beagle_first_package/prefix_override:/home/k/robo/install/beagle_first_package/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/beagle_first_package build --build-base /home/k/robo/build/beagle_first_package/build install --record /home/k/robo/build/beagle_first_package/install.log --single-version-externally-managed
+[0.958s] running egg_info
+[0.968s] writing ../../build/beagle_first_package/beagle_first_package.egg-info/PKG-INFO
+[0.968s] writing dependency_links to ../../build/beagle_first_package/beagle_first_package.egg-info/dependency_links.txt
+[0.969s] writing entry points to ../../build/beagle_first_package/beagle_first_package.egg-info/entry_points.txt
+[0.969s] writing requirements to ../../build/beagle_first_package/beagle_first_package.egg-info/requires.txt
+[0.969s] writing top-level names to ../../build/beagle_first_package/beagle_first_package.egg-info/top_level.txt
+[0.995s] reading manifest file '../../build/beagle_first_package/beagle_first_package.egg-info/SOURCES.txt'
+[0.996s] writing manifest file '../../build/beagle_first_package/beagle_first_package.egg-info/SOURCES.txt'
+[0.996s] running build
+[0.996s] running build_py
+[0.996s] copying beagle_first_package/beagle_first_sub.py -> /home/k/robo/build/beagle_first_package/build/lib/beagle_first_package
+[0.996s] running install
+[0.996s] /home/k/.local/lib/python3.8/site-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.996s]   warnings.warn(
+[1.000s] running install_lib
+[1.011s] copying /home/k/robo/build/beagle_first_package/build/lib/beagle_first_package/beagle_first_sub.py -> /home/k/robo/install/beagle_first_package/lib/python3.8/site-packages/beagle_first_package
+[1.011s] byte-compiling /home/k/robo/install/beagle_first_package/lib/python3.8/site-packages/beagle_first_package/beagle_first_sub.py to beagle_first_sub.cpython-38.pyc
+[1.011s] running install_data
+[1.021s] running install_egg_info
+[1.031s] removing '/home/k/robo/install/beagle_first_package/lib/python3.8/site-packages/beagle_first_package-0.0.0-py3.8.egg-info' (and everything under it)
+[1.031s] Copying ../../build/beagle_first_package/beagle_first_package.egg-info to /home/k/robo/install/beagle_first_package/lib/python3.8/site-packages/beagle_first_package-0.0.0-py3.8.egg-info
+[1.031s] running install_scripts
+[1.071s] Installing beagle_first_node script to /home/k/robo/install/beagle_first_package/lib/beagle_first_package
+[1.071s] Installing beagle_first_pub script to /home/k/robo/install/beagle_first_package/lib/beagle_first_package
+[1.071s] Installing beagle_first_sub script to /home/k/robo/install/beagle_first_package/lib/beagle_first_package
+[1.071s] writing list of installed files to '/home/k/robo/build/beagle_first_package/install.log'
+[1.106s] Invoked command in '/home/k/robo/src/beagle_first_package' returned '0': PYTHONPATH=/home/k/robo/build/beagle_first_package/prefix_override:/home/k/robo/install/beagle_first_package/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/beagle_first_package build --build-base /home/k/robo/build/beagle_first_package/build install --record /home/k/robo/build/beagle_first_package/install.log --single-version-externally-managed

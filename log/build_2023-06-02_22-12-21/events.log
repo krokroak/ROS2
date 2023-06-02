@@ -1,0 +1,275 @@
+[0.000000] (-) TimerEvent: {}
+[0.000238] (beagle_first_package) JobQueued: {'identifier': 'beagle_first_package', 'dependencies': OrderedDict()}
+[0.000309] (beagle_msgs) JobQueued: {'identifier': 'beagle_msgs', 'dependencies': OrderedDict()}
+[0.000456] (beagle_first_package) JobStarted: {'identifier': 'beagle_first_package'}
+[0.019841] (beagle_msgs) JobStarted: {'identifier': 'beagle_msgs'}
+[0.099893] (-) TimerEvent: {}
+[0.200379] (-) TimerEvent: {}
+[0.301023] (-) TimerEvent: {}
+[0.340749] (beagle_msgs) JobProgress: {'identifier': 'beagle_msgs', 'progress': 'cmake'}
+[0.341499] (beagle_msgs) JobProgress: {'identifier': 'beagle_msgs', 'progress': 'build'}
+[0.342331] (beagle_msgs) Command: {'cmd': ['/home/k/.local/bin/cmake', '--build', '/home/k/robo/build/beagle_msgs', '--', '-j8', '-l8'], 'cwd': '/home/k/robo/build/beagle_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'k'), ('SSH_AGENT_PID', '1803'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/k/robo/install/beagle_msgs/lib:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/home/k'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1584'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3844'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/k/robo/install'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'k'), ('JOURNAL_STREAM', '8:50391'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'k'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/galactic/bin:/home/k/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/k:@/tmp/.ICE-unix/1841,unix/k:/tmp/.ICE-unix/1841'), ('INVOCATION_ID', '4202b0d3b14945fdbc962281f944e82a'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/k/robo/install/beagle_msgs:/home/k/robo/install/beagle_first_package:/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:fc8c5712-0a94-4fe6-b7e9-f769a1f1f772'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/k/robo/build/beagle_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/k/robo/install/beagle_msgs/lib/python3.8/site-packages:/home/k/robo/install/beagle_first_package/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/k/robo/install/beagle_msgs:/home/k/robo/install/beagle_first_package:/opt/ros/galactic')]), 'shell': False}
+[0.401983] (-) TimerEvent: {}
+[0.415250] (beagle_msgs) StdoutLine: {'line': b'[ 53%] Built target beagle_msgs__rosidl_generator_c\n'}
+[0.417002] (beagle_msgs) StdoutLine: {'line': b'[ 55%] Built target beagle_msgs__cpp\n'}
+[0.434093] (beagle_msgs) StdoutLine: {'line': b'[ 65%] Built target beagle_msgs__rosidl_typesupport_introspection_c\n'}
+[0.435104] (beagle_msgs) StdoutLine: {'line': b'[ 65%] Built target beagle_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[0.437562] (beagle_msgs) StdoutLine: {'line': b'[ 65%] Built target beagle_msgs__rosidl_typesupport_c\n'}
+[0.450806] (beagle_msgs) StdoutLine: {'line': b'[ 76%] Built target beagle_msgs__rosidl_typesupport_introspection_cpp\n'}
+[0.455807] (beagle_msgs) StdoutLine: {'line': b'[ 76%] Built target beagle_msgs__rosidl_typesupport_cpp\n'}
+[0.461802] (beagle_msgs) StdoutLine: {'line': b'[ 76%] Built target beagle_msgs__rosidl_typesupport_fastrtps_c\n'}
+[0.469046] (beagle_msgs) StdoutLine: {'line': b'[ 76%] Built target beagle_msgs\n'}
+[0.477700] (beagle_msgs) StdoutLine: {'line': b'[  2%] Built target beagle_msgs__py\n'}
+[0.487111] (beagle_msgs) StdoutLine: {'line': b'[ 10%] Built target beagle_msgs__python\n'}
+[0.502060] (-) TimerEvent: {}
+[0.506755] (beagle_msgs) StdoutLine: {'line': b'Built target beagle_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[0.507160] (beagle_msgs) StdoutLine: {'line': b'Built target beagle_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.515330] (beagle_msgs) StdoutLine: {'line': b'Built target beagle_msgs__rosidl_typesupport_c__pyext\n'}
+[0.518949] (beagle_msgs) CommandEnded: {'returncode': 0}
+[0.602185] (-) TimerEvent: {}
+[0.638410] (beagle_msgs) JobProgress: {'identifier': 'beagle_msgs', 'progress': 'install'}
+[0.672518] (beagle_msgs) Command: {'cmd': ['/home/k/.local/bin/cmake', '--install', '/home/k/robo/build/beagle_msgs'], 'cwd': '/home/k/robo/build/beagle_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'k'), ('SSH_AGENT_PID', '1803'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/k/robo/install/beagle_msgs/lib:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/home/k'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1584'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3844'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/k/robo/install'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'k'), ('JOURNAL_STREAM', '8:50391'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'k'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/galactic/bin:/home/k/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/k:@/tmp/.ICE-unix/1841,unix/k:/tmp/.ICE-unix/1841'), ('INVOCATION_ID', '4202b0d3b14945fdbc962281f944e82a'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/k/robo/install/beagle_msgs:/home/k/robo/install/beagle_first_package:/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:fc8c5712-0a94-4fe6-b7e9-f769a1f1f772'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/k/robo/build/beagle_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/k/robo/install/beagle_msgs/lib/python3.8/site-packages:/home/k/robo/install/beagle_first_package/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/k/robo/install/beagle_msgs:/home/k/robo/install/beagle_first_package:/opt/ros/galactic')]), 'shell': False}
+[0.699530] (beagle_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.699821] (beagle_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/k/robo/install/beagle_msgs/share/ament_index/resource_index/rosidl_interfaces/beagle_msgs\n'}
+[0.700444] (beagle_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/k/robo/install/beagle_msgs/include/beagle_msgs\n'}
+[0.700861] (beagle_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/k/robo/install/beagle_msgs/include/beagle_msgs/msg\n'}
+[0.701818] (beagle_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/k/robo/install/beagle_msgs/include/beagle_msgs/msg/positioncmd.h\n'}
+[0.702247] (-) TimerEvent: {}
+[0.702660] (beagle_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/k/robo/install/beagle_msgs/include/beagle_msgs/msg/detail\n'}
+[0.703388] (beagle_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/k/robo/install/beagle_msgs/include/beagle_msgs/msg/detail/cmd_and_pose_vel__type_support.h\n'}
+[0.703919] (beagle_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/k/robo/install/beagle_msgs/include/beagle_msgs/msg/detail/positioncmd__type_support.h\n'}
+[0.704437] (beagle_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/k/robo/install/beagle_msgs/include/beagle_msgs/msg/detail/position_cmd__type_support.h\n'}
+[0.704958] (beagle_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/k/robo/install/beagle_msgs/include/beagle_msgs/msg/detail/positioncmd__struct.h\n'}
+[0.705533] (beagle_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/k/robo/install/beagle_msgs/include/beagle_msgs/msg/detail/positioncmd__functions.c\n'}
+[0.706037] (beagle_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/k/robo/install/beagle_msgs/include/beagle_msgs/msg/detail/cmd_and_pose_vel__functions.c\n'}
+[0.706546] (beagle_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/k/robo/install/beagle_msgs/include/beagle_msgs/msg/detail/position_cmd__functions.c\n'}
+[0.707049] (beagle_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/k/robo/install/beagle_msgs/include/beagle_msgs/msg/detail/position_cmd__functions.h\n'}
+[0.707562] (beagle_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/k/robo/install/beagle_msgs/include/beagle_msgs/msg/detail/positioncmd__functions.h\n'}
+[0.708078] (beagle_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/k/robo/install/beagle_msgs/include/beagle_msgs/msg/detail/cmd_and_pose_vel__struct.h\n'}
+[0.708581] (beagle_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/k/robo/install/beagle_msgs/include/beagle_msgs/msg/detail/cmd_and_pose_vel__functions.h\n'}
+[0.709102] (beagle_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/k/robo/install/beagle_msgs/include/beagle_msgs/msg/detail/position_cmd__struct.h\n'}
+[0.709906] (beagle_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/k/robo/install/beagle_msgs/include/beagle_msgs/msg/position_cmd.h\n'}
+[0.710332] (beagle_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/k/robo/install/beagle_msgs/include/beagle_msgs/msg/cmd_and_pose_vel.h\n'}
+[0.710918] (beagle_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/k/robo/install/beagle_msgs/include/beagle_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[0.711616] (beagle_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/k/robo/install/beagle_msgs/include/beagle_msgs/action\n'}
+[0.712184] (beagle_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/k/robo/install/beagle_msgs/include/beagle_msgs/action/detail\n'}
+[0.712757] (beagle_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/k/robo/install/beagle_msgs/include/beagle_msgs/action/detail/distbeagle__struct.h\n'}
+[0.713269] (beagle_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/k/robo/install/beagle_msgs/include/beagle_msgs/action/detail/distbeagle__functions.c\n'}
+[0.713800] (beagle_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/k/robo/install/beagle_msgs/include/beagle_msgs/action/detail/distbeagle__functions.h\n'}
+[0.714324] (beagle_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/k/robo/install/beagle_msgs/include/beagle_msgs/action/detail/distbeagle__type_support.h\n'}
+[0.714847] (beagle_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/k/robo/install/beagle_msgs/include/beagle_msgs/action/distbeagle.h\n'}
+[0.715351] (beagle_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/k/robo/install/beagle_msgs/include/beagle_msgs/srv\n'}
+[0.716023] (beagle_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/k/robo/install/beagle_msgs/include/beagle_msgs/srv/beagleposition.h\n'}
+[0.716664] (beagle_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/k/robo/install/beagle_msgs/include/beagle_msgs/srv/detail\n'}
+[0.717672] (beagle_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/k/robo/install/beagle_msgs/include/beagle_msgs/srv/detail/beagleposition__functions.h\n'}
+[0.718555] (beagle_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/k/robo/install/beagle_msgs/include/beagle_msgs/srv/detail/beagleposition__type_support.h\n'}
+[0.719317] (beagle_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/k/robo/install/beagle_msgs/include/beagle_msgs/srv/detail/beagleposition__functions.c\n'}
+[0.720040] (beagle_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/k/robo/install/beagle_msgs/include/beagle_msgs/srv/detail/beagleposition__struct.h\n'}
+[0.720911] (beagle_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/k/robo/install/beagle_msgs/share/beagle_msgs/environment/library_path.sh\n'}
+[0.721959] (beagle_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/k/robo/install/beagle_msgs/share/beagle_msgs/environment/library_path.dsv\n'}
+[0.723225] (beagle_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/k/robo/install/beagle_msgs/lib/libbeagle_msgs__rosidl_generator_c.so\n'}
+[0.724278] (beagle_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/k/robo/install/beagle_msgs/include/beagle_msgs\n'}
+[0.725153] (beagle_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/k/robo/install/beagle_msgs/include/beagle_msgs/msg\n'}
+[0.729493] (beagle_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/k/robo/install/beagle_msgs/include/beagle_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[0.729662] (beagle_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/k/robo/install/beagle_msgs/include/beagle_msgs/msg/detail\n'}
+[0.729728] (beagle_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/k/robo/install/beagle_msgs/include/beagle_msgs/msg/detail/position_cmd__rosidl_typesupport_fastrtps_c.h\n'}
+[0.729789] (beagle_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/k/robo/install/beagle_msgs/include/beagle_msgs/msg/detail/positioncmd__rosidl_typesupport_fastrtps_c.h\n'}
+[0.729847] (beagle_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/k/robo/install/beagle_msgs/include/beagle_msgs/msg/detail/cmd_and_pose_vel__rosidl_typesupport_fastrtps_c.h\n'}
+[0.729907] (beagle_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/k/robo/install/beagle_msgs/include/beagle_msgs/action\n'}
+[0.729964] (beagle_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/k/robo/install/beagle_msgs/include/beagle_msgs/action/detail\n'}
+[0.730021] (beagle_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/k/robo/install/beagle_msgs/include/beagle_msgs/action/detail/distbeagle__rosidl_typesupport_fastrtps_c.h\n'}
+[0.730078] (beagle_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/k/robo/install/beagle_msgs/include/beagle_msgs/srv\n'}
+[0.730135] (beagle_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/k/robo/install/beagle_msgs/include/beagle_msgs/srv/detail\n'}
+[0.730191] (beagle_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/k/robo/install/beagle_msgs/include/beagle_msgs/srv/detail/beagleposition__rosidl_typesupport_fastrtps_c.h\n'}
+[0.730247] (beagle_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/k/robo/install/beagle_msgs/lib/libbeagle_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[0.730304] (beagle_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/k/robo/install/beagle_msgs/include/beagle_msgs\n'}
+[0.730360] (beagle_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/k/robo/install/beagle_msgs/include/beagle_msgs/msg\n'}
+[0.730417] (beagle_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/k/robo/install/beagle_msgs/include/beagle_msgs/msg/detail\n'}
+[0.730474] (beagle_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/k/robo/install/beagle_msgs/include/beagle_msgs/msg/detail/positioncmd__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.730533] (beagle_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/k/robo/install/beagle_msgs/include/beagle_msgs/msg/detail/dds_fastrtps\n'}
+[0.730589] (beagle_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/k/robo/install/beagle_msgs/include/beagle_msgs/msg/detail/position_cmd__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.730645] (beagle_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/k/robo/install/beagle_msgs/include/beagle_msgs/msg/detail/cmd_and_pose_vel__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.730701] (beagle_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/k/robo/install/beagle_msgs/include/beagle_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[0.730766] (beagle_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/k/robo/install/beagle_msgs/include/beagle_msgs/action\n'}
+[0.730822] (beagle_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/k/robo/install/beagle_msgs/include/beagle_msgs/action/detail\n'}
+[0.730880] (beagle_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/k/robo/install/beagle_msgs/include/beagle_msgs/action/detail/dds_fastrtps\n'}
+[0.730938] (beagle_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/k/robo/install/beagle_msgs/include/beagle_msgs/action/detail/distbeagle__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.730996] (beagle_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/k/robo/install/beagle_msgs/include/beagle_msgs/srv\n'}
+[0.731053] (beagle_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/k/robo/install/beagle_msgs/include/beagle_msgs/srv/detail\n'}
+[0.731110] (beagle_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/k/robo/install/beagle_msgs/include/beagle_msgs/srv/detail/dds_fastrtps\n'}
+[0.731379] (beagle_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/k/robo/install/beagle_msgs/include/beagle_msgs/srv/detail/beagleposition__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.732742] (beagle_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/k/robo/install/beagle_msgs/lib/libbeagle_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[0.732823] (beagle_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/k/robo/install/beagle_msgs/include/beagle_msgs\n'}
+[0.732881] (beagle_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/k/robo/install/beagle_msgs/include/beagle_msgs/msg\n'}
+[0.732938] (beagle_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/k/robo/install/beagle_msgs/include/beagle_msgs/msg/detail\n'}
+[0.732998] (beagle_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/k/robo/install/beagle_msgs/include/beagle_msgs/msg/detail/positioncmd__rosidl_typesupport_introspection_c.h\n'}
+[0.733056] (beagle_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/k/robo/install/beagle_msgs/include/beagle_msgs/msg/detail/positioncmd__type_support.c\n'}
+[0.733112] (beagle_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/k/robo/install/beagle_msgs/include/beagle_msgs/msg/detail/cmd_and_pose_vel__type_support.c\n'}
+[0.733192] (beagle_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/k/robo/install/beagle_msgs/include/beagle_msgs/msg/detail/cmd_and_pose_vel__rosidl_typesupport_introspection_c.h\n'}
+[0.733251] (beagle_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/k/robo/install/beagle_msgs/include/beagle_msgs/msg/detail/position_cmd__rosidl_typesupport_introspection_c.h\n'}
+[0.733320] (beagle_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/k/robo/install/beagle_msgs/include/beagle_msgs/msg/detail/position_cmd__type_support.c\n'}
+[0.733377] (beagle_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/k/robo/install/beagle_msgs/include/beagle_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[0.733435] (beagle_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/k/robo/install/beagle_msgs/include/beagle_msgs/action\n'}
+[0.733794] (beagle_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/k/robo/install/beagle_msgs/include/beagle_msgs/action/detail\n'}
+[0.733868] (beagle_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/k/robo/install/beagle_msgs/include/beagle_msgs/action/detail/distbeagle__rosidl_typesupport_introspection_c.h\n'}
+[0.733928] (beagle_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/k/robo/install/beagle_msgs/include/beagle_msgs/action/detail/distbeagle__type_support.c\n'}
+[0.733988] (beagle_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/k/robo/install/beagle_msgs/include/beagle_msgs/srv\n'}
+[0.734047] (beagle_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/k/robo/install/beagle_msgs/include/beagle_msgs/srv/detail\n'}
+[0.734106] (beagle_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/k/robo/install/beagle_msgs/include/beagle_msgs/srv/detail/beagleposition__rosidl_typesupport_introspection_c.h\n'}
+[0.734167] (beagle_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/k/robo/install/beagle_msgs/include/beagle_msgs/srv/detail/beagleposition__type_support.c\n'}
+[0.734231] (beagle_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/k/robo/install/beagle_msgs/lib/libbeagle_msgs__rosidl_typesupport_introspection_c.so\n'}
+[0.734318] (beagle_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/k/robo/install/beagle_msgs/lib/libbeagle_msgs__rosidl_typesupport_c.so\n'}
+[0.734376] (beagle_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/k/robo/install/beagle_msgs/include/beagle_msgs\n'}
+[0.734434] (beagle_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/k/robo/install/beagle_msgs/include/beagle_msgs/msg\n'}
+[0.734490] (beagle_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/k/robo/install/beagle_msgs/include/beagle_msgs/msg/detail\n'}
+[0.734548] (beagle_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/k/robo/install/beagle_msgs/include/beagle_msgs/msg/detail/position_cmd__builder.hpp\n'}
+[0.734606] (beagle_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/k/robo/install/beagle_msgs/include/beagle_msgs/msg/detail/position_cmd__struct.hpp\n'}
+[0.734663] (beagle_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/k/robo/install/beagle_msgs/include/beagle_msgs/msg/detail/cmd_and_pose_vel__struct.hpp\n'}
+[0.734720] (beagle_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/k/robo/install/beagle_msgs/include/beagle_msgs/msg/detail/cmd_and_pose_vel__builder.hpp\n'}
+[0.734777] (beagle_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/k/robo/install/beagle_msgs/include/beagle_msgs/msg/detail/positioncmd__traits.hpp\n'}
+[0.734834] (beagle_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/k/robo/install/beagle_msgs/include/beagle_msgs/msg/detail/positioncmd__struct.hpp\n'}
+[0.734891] (beagle_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/k/robo/install/beagle_msgs/include/beagle_msgs/msg/detail/position_cmd__traits.hpp\n'}
+[0.734948] (beagle_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/k/robo/install/beagle_msgs/include/beagle_msgs/msg/detail/cmd_and_pose_vel__traits.hpp\n'}
+[0.735008] (beagle_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/k/robo/install/beagle_msgs/include/beagle_msgs/msg/detail/positioncmd__builder.hpp\n'}
+[0.735065] (beagle_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/k/robo/install/beagle_msgs/include/beagle_msgs/msg/position_cmd.hpp\n'}
+[0.735122] (beagle_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/k/robo/install/beagle_msgs/include/beagle_msgs/msg/positioncmd.hpp\n'}
+[0.735221] (beagle_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/k/robo/install/beagle_msgs/include/beagle_msgs/msg/cmd_and_pose_vel.hpp\n'}
+[0.735285] (beagle_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/k/robo/install/beagle_msgs/include/beagle_msgs/action\n'}
+[0.735343] (beagle_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/k/robo/install/beagle_msgs/include/beagle_msgs/action/distbeagle.hpp\n'}
+[0.735401] (beagle_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/k/robo/install/beagle_msgs/include/beagle_msgs/action/detail\n'}
+[0.735458] (beagle_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/k/robo/install/beagle_msgs/include/beagle_msgs/action/detail/distbeagle__builder.hpp\n'}
+[0.735515] (beagle_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/k/robo/install/beagle_msgs/include/beagle_msgs/action/detail/distbeagle__struct.hpp\n'}
+[0.735573] (beagle_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/k/robo/install/beagle_msgs/include/beagle_msgs/action/detail/distbeagle__traits.hpp\n'}
+[0.735631] (beagle_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/k/robo/install/beagle_msgs/include/beagle_msgs/srv\n'}
+[0.735688] (beagle_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/k/robo/install/beagle_msgs/include/beagle_msgs/srv/detail\n'}
+[0.735836] (beagle_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/k/robo/install/beagle_msgs/include/beagle_msgs/srv/detail/beagleposition__traits.hpp\n'}
+[0.735966] (beagle_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/k/robo/install/beagle_msgs/include/beagle_msgs/srv/detail/beagleposition__builder.hpp\n'}
+[0.736027] (beagle_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/k/robo/install/beagle_msgs/include/beagle_msgs/srv/detail/beagleposition__struct.hpp\n'}
+[0.736090] (beagle_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/k/robo/install/beagle_msgs/include/beagle_msgs/srv/beagleposition.hpp\n'}
+[0.736151] (beagle_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/k/robo/install/beagle_msgs/include/beagle_msgs\n'}
+[0.736211] (beagle_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/k/robo/install/beagle_msgs/include/beagle_msgs/msg\n'}
+[0.736270] (beagle_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/k/robo/install/beagle_msgs/include/beagle_msgs/msg/detail\n'}
+[0.736328] (beagle_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/k/robo/install/beagle_msgs/include/beagle_msgs/msg/detail/position_cmd__type_support.cpp\n'}
+[0.736393] (beagle_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/k/robo/install/beagle_msgs/include/beagle_msgs/msg/detail/positioncmd__type_support.cpp\n'}
+[0.736451] (beagle_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/k/robo/install/beagle_msgs/include/beagle_msgs/msg/detail/cmd_and_pose_vel__type_support.cpp\n'}
+[0.736510] (beagle_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/k/robo/install/beagle_msgs/include/beagle_msgs/msg/detail/position_cmd__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.736568] (beagle_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/k/robo/install/beagle_msgs/include/beagle_msgs/msg/detail/cmd_and_pose_vel__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.736625] (beagle_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/k/robo/install/beagle_msgs/include/beagle_msgs/msg/detail/positioncmd__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.736683] (beagle_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/k/robo/install/beagle_msgs/include/beagle_msgs/action\n'}
+[0.736741] (beagle_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/k/robo/install/beagle_msgs/include/beagle_msgs/action/detail\n'}
+[0.736798] (beagle_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/k/robo/install/beagle_msgs/include/beagle_msgs/action/detail/distbeagle__type_support.cpp\n'}
+[0.736856] (beagle_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/k/robo/install/beagle_msgs/include/beagle_msgs/action/detail/distbeagle__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.736915] (beagle_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/k/robo/install/beagle_msgs/include/beagle_msgs/srv\n'}
+[0.736973] (beagle_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/k/robo/install/beagle_msgs/include/beagle_msgs/srv/detail\n'}
+[0.737029] (beagle_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/k/robo/install/beagle_msgs/include/beagle_msgs/srv/detail/beagleposition__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.737087] (beagle_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/k/robo/install/beagle_msgs/include/beagle_msgs/srv/detail/beagleposition__type_support.cpp\n'}
+[0.737146] (beagle_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/k/robo/install/beagle_msgs/lib/libbeagle_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[0.737204] (beagle_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/k/robo/install/beagle_msgs/lib/libbeagle_msgs__rosidl_typesupport_cpp.so\n'}
+[0.737260] (beagle_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/k/robo/install/beagle_msgs/share/beagle_msgs/environment/pythonpath.sh\n'}
+[0.737319] (beagle_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/k/robo/install/beagle_msgs/share/beagle_msgs/environment/pythonpath.dsv\n'}
+[0.737377] (beagle_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/k/robo/install/beagle_msgs/lib/python3.8/site-packages/beagle_msgs/__init__.py\n'}
+[0.802369] (-) TimerEvent: {}
+[0.807415] (beagle_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/k/robo/install/beagle_msgs/lib/python3.8/site-packages/beagle_msgs/msg\n'}
+[0.807607] (beagle_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/k/robo/install/beagle_msgs/lib/python3.8/site-packages/beagle_msgs/msg/_position_cmd.py\n'}
+[0.807672] (beagle_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/k/robo/install/beagle_msgs/lib/python3.8/site-packages/beagle_msgs/msg/__init__.py\n'}
+[0.807740] (beagle_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/k/robo/install/beagle_msgs/lib/python3.8/site-packages/beagle_msgs/msg/_positioncmd.py\n'}
+[0.807798] (beagle_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/k/robo/install/beagle_msgs/lib/python3.8/site-packages/beagle_msgs/msg/_position_cmd_s.c\n'}
+[0.807855] (beagle_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/k/robo/install/beagle_msgs/lib/python3.8/site-packages/beagle_msgs/msg/_cmd_and_pose_vel.py\n'}
+[0.807912] (beagle_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/k/robo/install/beagle_msgs/lib/python3.8/site-packages/beagle_msgs/msg/_positioncmd_s.c\n'}
+[0.807968] (beagle_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/k/robo/install/beagle_msgs/lib/python3.8/site-packages/beagle_msgs/msg/_cmd_and_pose_vel_s.c\n'}
+[0.808024] (beagle_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/k/robo/install/beagle_msgs/lib/python3.8/site-packages/beagle_msgs/action\n'}
+[0.808080] (beagle_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/k/robo/install/beagle_msgs/lib/python3.8/site-packages/beagle_msgs/action/__init__.py\n'}
+[0.808137] (beagle_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/k/robo/install/beagle_msgs/lib/python3.8/site-packages/beagle_msgs/action/_distbeagle.py\n'}
+[0.808194] (beagle_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/k/robo/install/beagle_msgs/lib/python3.8/site-packages/beagle_msgs/action/_distbeagle_s.c\n'}
+[0.808251] (beagle_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/k/robo/install/beagle_msgs/lib/python3.8/site-packages/beagle_msgs/srv\n'}
+[0.808376] (beagle_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/k/robo/install/beagle_msgs/lib/python3.8/site-packages/beagle_msgs/srv/_beagleposition_s.c\n'}
+[0.808435] (beagle_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/k/robo/install/beagle_msgs/lib/python3.8/site-packages/beagle_msgs/srv/__init__.py\n'}
+[0.808491] (beagle_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/k/robo/install/beagle_msgs/lib/python3.8/site-packages/beagle_msgs/srv/_beagleposition.py\n'}
+[0.808548] (beagle_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/k/robo/install/beagle_msgs/lib/python3.8/site-packages/beagle_msgs/beagle_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\n'}
+[0.808608] (beagle_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/k/robo/install/beagle_msgs/lib/python3.8/site-packages/beagle_msgs/beagle_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\n'}
+[0.808668] (beagle_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/k/robo/install/beagle_msgs/lib/python3.8/site-packages/beagle_msgs/beagle_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\n'}
+[0.808730] (beagle_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/k/robo/install/beagle_msgs/lib/libbeagle_msgs__python.so\n'}
+[0.808892] (beagle_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/k/robo/install/beagle_msgs/share/beagle_msgs/msg/CmdAndPoseVel.idl\n'}
+[0.809072] (beagle_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/k/robo/install/beagle_msgs/share/beagle_msgs/action/Distbeagle.idl\n'}
+[0.810516] (beagle_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/k/robo/install/beagle_msgs/share/beagle_msgs/srv/Beagleposition.idl\n'}
+[0.810773] (beagle_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/k/robo/install/beagle_msgs/share/beagle_msgs/msg/CmdAndPoseVel.msg\n'}
+[0.810923] (beagle_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/k/robo/install/beagle_msgs/share/beagle_msgs/action/Distbeagle.action\n'}
+[0.811062] (beagle_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/k/robo/install/beagle_msgs/share/beagle_msgs/srv/Beagleposition.srv\n'}
+[0.811215] (beagle_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/k/robo/install/beagle_msgs/share/beagle_msgs/srv/Beagleposition_Request.msg\n'}
+[0.811363] (beagle_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/k/robo/install/beagle_msgs/share/beagle_msgs/srv/Beagleposition_Response.msg\n'}
+[0.811510] (beagle_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/k/robo/install/beagle_msgs/share/ament_index/resource_index/package_run_dependencies/beagle_msgs\n'}
+[0.811667] (beagle_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/k/robo/install/beagle_msgs/share/ament_index/resource_index/parent_prefix_path/beagle_msgs\n'}
+[0.811817] (beagle_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/k/robo/install/beagle_msgs/share/beagle_msgs/environment/ament_prefix_path.sh\n'}
+[0.811957] (beagle_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/k/robo/install/beagle_msgs/share/beagle_msgs/environment/ament_prefix_path.dsv\n'}
+[0.812097] (beagle_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/k/robo/install/beagle_msgs/share/beagle_msgs/environment/path.sh\n'}
+[0.812236] (beagle_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/k/robo/install/beagle_msgs/share/beagle_msgs/environment/path.dsv\n'}
+[0.812372] (beagle_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/k/robo/install/beagle_msgs/share/beagle_msgs/local_setup.bash\n'}
+[0.812509] (beagle_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/k/robo/install/beagle_msgs/share/beagle_msgs/local_setup.sh\n'}
+[0.812652] (beagle_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/k/robo/install/beagle_msgs/share/beagle_msgs/local_setup.zsh\n'}
+[0.812787] (beagle_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/k/robo/install/beagle_msgs/share/beagle_msgs/local_setup.dsv\n'}
+[0.812929] (beagle_msgs) StdoutLine: {'line': b'-- Installing: /home/k/robo/install/beagle_msgs/share/beagle_msgs/package.dsv\n'}
+[0.813269] (beagle_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/k/robo/install/beagle_msgs/share/ament_index/resource_index/packages/beagle_msgs\n'}
+[0.813513] (beagle_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/k/robo/install/beagle_msgs/share/beagle_msgs/cmake/beagle_msgs__rosidl_generator_cExport.cmake\n'}
+[0.817256] (beagle_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/k/robo/install/beagle_msgs/share/beagle_msgs/cmake/beagle_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[0.817471] (beagle_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/k/robo/install/beagle_msgs/share/beagle_msgs/cmake/beagle_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[0.817544] (beagle_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/k/robo/install/beagle_msgs/share/beagle_msgs/cmake/beagle_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[0.817599] (beagle_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/k/robo/install/beagle_msgs/share/beagle_msgs/cmake/beagle_msgs__rosidl_typesupport_cExport.cmake\n'}
+[0.817652] (beagle_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/k/robo/install/beagle_msgs/share/beagle_msgs/cmake/beagle_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[0.817704] (beagle_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/k/robo/install/beagle_msgs/share/beagle_msgs/cmake/beagle_msgs__rosidl_generator_cppExport.cmake\n'}
+[0.817754] (beagle_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/k/robo/install/beagle_msgs/share/beagle_msgs/cmake/beagle_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[0.817806] (beagle_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/k/robo/install/beagle_msgs/share/beagle_msgs/cmake/beagle_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[0.817857] (beagle_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/k/robo/install/beagle_msgs/share/beagle_msgs/cmake/beagle_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[0.817909] (beagle_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/k/robo/install/beagle_msgs/share/beagle_msgs/cmake/beagle_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[0.817962] (beagle_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/k/robo/install/beagle_msgs/share/beagle_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[0.818014] (beagle_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/k/robo/install/beagle_msgs/share/beagle_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[0.818067] (beagle_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/k/robo/install/beagle_msgs/share/beagle_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[0.818132] (beagle_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/k/robo/install/beagle_msgs/share/beagle_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[0.818189] (beagle_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/k/robo/install/beagle_msgs/share/beagle_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[0.818243] (beagle_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/k/robo/install/beagle_msgs/share/beagle_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[0.818307] (beagle_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/k/robo/install/beagle_msgs/share/beagle_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[0.818370] (beagle_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/k/robo/install/beagle_msgs/share/beagle_msgs/cmake/beagle_msgsConfig.cmake\n'}
+[0.818437] (beagle_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/k/robo/install/beagle_msgs/share/beagle_msgs/cmake/beagle_msgsConfig-version.cmake\n'}
+[0.818505] (beagle_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/k/robo/install/beagle_msgs/share/beagle_msgs/package.xml\n'}
+[0.823349] (beagle_msgs) CommandEnded: {'returncode': 0}
+[0.904800] (-) TimerEvent: {}
+[1.006086] (-) TimerEvent: {}
+[1.108705] (-) TimerEvent: {}
+[1.121409] (beagle_msgs) JobEnded: {'identifier': 'beagle_msgs', 'rc': 0}
+[1.208806] (-) TimerEvent: {}
+[1.309078] (-) TimerEvent: {}
+[1.341353] (beagle_first_package) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/beagle_first_package', 'build', '--build-base', '/home/k/robo/build/beagle_first_package/build', 'install', '--record', '/home/k/robo/build/beagle_first_package/install.log', '--single-version-externally-managed'], 'cwd': '/home/k/robo/src/beagle_first_package', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'k', 'SSH_AGENT_PID': '1803', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/k/robo/install/beagle_msgs/lib:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib', 'HOME': '/home/k', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1584', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '3844', 'MANDATORY_PATH': '/usr/share/gconf/ubuntu.mandatory.path', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/k/robo/install', 'ROS_DISTRO': 'galactic', 'LOGNAME': 'k', 'JOURNAL_STREAM': '8:50391', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'DEFAULTS_PATH': '/usr/share/gconf/ubuntu.default.path', 'USERNAME': 'k', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/galactic/bin:/home/k/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/k:@/tmp/.ICE-unix/1841,unix/k:/tmp/.ICE-unix/1841', 'INVOCATION_ID': '4202b0d3b14945fdbc962281f944e82a', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/k/robo/install/beagle_msgs:/home/k/robo/install/beagle_first_package:/opt/ros/galactic', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:fc8c5712-0a94-4fe6-b7e9-f769a1f1f772', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/k/robo/build/beagle_first_package', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/k/robo/build/beagle_first_package/prefix_override:/home/k/robo/install/beagle_first_package/lib/python3.8/site-packages:/home/k/robo/install/beagle_msgs/lib/python3.8/site-packages:/home/k/robo/install/beagle_first_package/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages', 'COLCON': '1', 'VTE_VERSION': '6003', 'CMAKE_PREFIX_PATH': '/home/k/robo/install/beagle_msgs'}, 'shell': False}
+[1.409220] (-) TimerEvent: {}
+[1.509573] (-) TimerEvent: {}
+[1.609871] (-) TimerEvent: {}
+[1.711023] (-) TimerEvent: {}
+[1.784645] (beagle_first_package) StdoutLine: {'line': b'running egg_info\n'}
+[1.802458] (beagle_first_package) StdoutLine: {'line': b'writing ../../build/beagle_first_package/beagle_first_package.egg-info/PKG-INFO\n'}
+[1.802736] (beagle_first_package) StdoutLine: {'line': b'writing dependency_links to ../../build/beagle_first_package/beagle_first_package.egg-info/dependency_links.txt\n'}
+[1.803013] (beagle_first_package) StdoutLine: {'line': b'writing entry points to ../../build/beagle_first_package/beagle_first_package.egg-info/entry_points.txt\n'}
+[1.803158] (beagle_first_package) StdoutLine: {'line': b'writing requirements to ../../build/beagle_first_package/beagle_first_package.egg-info/requires.txt\n'}
+[1.803272] (beagle_first_package) StdoutLine: {'line': b'writing top-level names to ../../build/beagle_first_package/beagle_first_package.egg-info/top_level.txt\n'}
+[1.811125] (-) TimerEvent: {}
+[1.842692] (beagle_first_package) StdoutLine: {'line': b"reading manifest file '../../build/beagle_first_package/beagle_first_package.egg-info/SOURCES.txt'\n"}
+[1.842987] (beagle_first_package) StdoutLine: {'line': b"writing manifest file '../../build/beagle_first_package/beagle_first_package.egg-info/SOURCES.txt'\n"}
+[1.843105] (beagle_first_package) StdoutLine: {'line': b'running build\n'}
+[1.843183] (beagle_first_package) StdoutLine: {'line': b'running build_py\n'}
+[1.843565] (beagle_first_package) StdoutLine: {'line': b'running install\n'}
+[1.843697] (beagle_first_package) StderrLine: {'line': b'/home/k/.local/lib/python3.8/site-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[1.843792] (beagle_first_package) StderrLine: {'line': b'  warnings.warn(\n'}
+[1.848637] (beagle_first_package) StdoutLine: {'line': b'running install_lib\n'}
+[1.861184] (beagle_first_package) StdoutLine: {'line': b'running install_data\n'}
+[1.873745] (beagle_first_package) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.892092] (beagle_first_package) StdoutLine: {'line': b"removing '/home/k/robo/install/beagle_first_package/lib/python3.8/site-packages/beagle_first_package-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[1.892360] (beagle_first_package) StdoutLine: {'line': b'Copying ../../build/beagle_first_package/beagle_first_package.egg-info to /home/k/robo/install/beagle_first_package/lib/python3.8/site-packages/beagle_first_package-0.0.0-py3.8.egg-info\n'}
+[1.893048] (beagle_first_package) StdoutLine: {'line': b'running install_scripts\n'}
+[1.911233] (-) TimerEvent: {}
+[1.956023] (beagle_first_package) StdoutLine: {'line': b'Installing beagle_action_server script to /home/k/robo/install/beagle_first_package/lib/beagle_first_package\n'}
+[1.956314] (beagle_first_package) StdoutLine: {'line': b'Installing beagle_first_node script to /home/k/robo/install/beagle_first_package/lib/beagle_first_package\n'}
+[1.956424] (beagle_first_package) StdoutLine: {'line': b'Installing beagle_first_pub script to /home/k/robo/install/beagle_first_package/lib/beagle_first_package\n'}
+[1.956531] (beagle_first_package) StdoutLine: {'line': b'Installing beagle_first_sub script to /home/k/robo/install/beagle_first_package/lib/beagle_first_package\n'}
+[1.956601] (beagle_first_package) StdoutLine: {'line': b'Installing beagle_service_server script to /home/k/robo/install/beagle_first_package/lib/beagle_first_package\n'}
+[1.956837] (beagle_first_package) StdoutLine: {'line': b"writing list of installed files to '/home/k/robo/build/beagle_first_package/install.log'\n"}
+[2.011483] (-) TimerEvent: {}
+[2.051680] (beagle_first_package) CommandEnded: {'returncode': 0}
+[2.067723] (beagle_first_package) JobEnded: {'identifier': 'beagle_first_package', 'rc': 0}
+[2.068754] (-) EventReactorShutdown: {}

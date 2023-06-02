@@ -1,0 +1,50 @@
+[0.275s] Invoking command in '/home/k/robo/build/beagle_msgs': CMAKE_PREFIX_PATH=/home/k/robo/install/beagle_first_package:/opt/ros/galactic /home/k/.local/bin/cmake /home/k/robo/src/beagle_msgs -DCMAKE_INSTALL_PREFIX=/home/k/robo/install/beagle_msgs
+[0.298s] -- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+[0.312s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.359s] -- Found rosidl_default_generators: 1.1.1 (/opt/ros/galactic/share/rosidl_default_generators/cmake)
+[0.365s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.375s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[0.461s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.495s] -- Found FastRTPS: /opt/ros/galactic/include  
+[0.563s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.601s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[0.731s] [31mCMake Error at /opt/ros/galactic/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:60 (message):
+[0.731s]   execute_process(/usr/bin/python3 -m rosidl_adapter --package-name
+[0.731s]   beagle_msgs --arguments-file
+[0.731s]   /home/k/robo/build/beagle_msgs/rosidl_adapter__arguments__beagle_msgs.json
+[0.731s]   --output-dir /home/k/robo/build/beagle_msgs/rosidl_adapter/beagle_msgs
+[0.731s]   --output-file
+[0.731s]   /home/k/robo/build/beagle_msgs/rosidl_adapter/beagle_msgs.idls) returned
+[0.731s]   error code 1:
+[0.731s] 
+[0.731s]   Traceback (most recent call last):
+[0.731s] 
+[0.732s]     File "/usr/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+[0.732s]       return _run_code(code, main_globals, None,
+[0.732s]     File "/usr/lib/python3.8/runpy.py", line 87, in _run_code
+[0.732s]       exec(code, run_globals)
+[0.732s]     File "/opt/ros/galactic/lib/python3.8/site-packages/rosidl_adapter/__main__.py", line 19, in <module>
+[0.732s]       sys.exit(main())
+[0.732s]     File "/opt/ros/galactic/lib/python3.8/site-packages/rosidl_adapter/main.py", line 53, in main
+[0.732s]       abs_idl_file = convert_to_idl(
+[0.732s]     File "/opt/ros/galactic/lib/python3.8/site-packages/rosidl_adapter/__init__.py", line 19, in convert_to_idl
+[0.732s]       return convert_msg_to_idl(
+[0.732s]     File "/opt/ros/galactic/lib/python3.8/site-packages/rosidl_adapter/msg/__init__.py", line 28, in convert_msg_to_idl
+[0.732s]       msg = parse_message_string(package_name, input_file.stem, content)
+[0.732s]     File "/opt/ros/galactic/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 540, in parse_message_string
+[0.732s]       msg = MessageSpecification(pkg_name, msg_name, fields, constants)
+[0.732s]     File "/opt/ros/galactic/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 387, in __init__
+[0.732s]       self.base_type = BaseType(
+[0.732s]     File "/opt/ros/galactic/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 204, in __init__
+[0.732s]       raise InvalidResourceName(
+[0.732s] 
+[0.732s]   rosidl_adapter.parser.InvalidResourceName: 'beaglecmdposition' is an
+[0.732s]   invalid message name.  It should have the pattern '^[A-Z][A-Za-z0-9]*$'
+[0.732s] 
+[0.733s] Call Stack (most recent call first):
+[0.733s]   /opt/ros/galactic/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)
+[0.733s]   CMakeLists.txt:14 (rosidl_generate_interfaces)
+[0.733s] 
+[0.733s] [0m
+[0.733s] -- Configuring incomplete, errors occurred!
+[0.738s] Invoked command in '/home/k/robo/build/beagle_msgs' returned '1': CMAKE_PREFIX_PATH=/home/k/robo/install/beagle_first_package:/opt/ros/galactic /home/k/.local/bin/cmake /home/k/robo/src/beagle_msgs -DCMAKE_INSTALL_PREFIX=/home/k/robo/install/beagle_msgs

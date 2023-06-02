@@ -1,0 +1,179 @@
+[0.271s] Invoking command in '/home/k/robo/build/beagle_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/k/robo/install/beagle_first_package:/opt/ros/galactic /home/k/.local/bin/cmake --build /home/k/robo/build/beagle_msgs -- -j8 -l8
+[0.298s] -- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+[0.313s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.313s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.355s] -- Found rosidl_default_generators: 1.1.1 (/opt/ros/galactic/share/rosidl_default_generators/cmake)
+[0.356s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.358s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[0.454s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.485s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[0.562s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/galactic/share/ament_cmake_ros/cmake)
+[0.629s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.633s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.648s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[0.649s] -- Found python_cmake_module: 0.8.1 (/opt/ros/galactic/share/python_cmake_module/cmake)
+[0.666s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.666s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[0.667s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[0.674s] -- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+[0.680s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.681s] -- Added test 'lint_cmake' to check CMake code style
+[0.681s] -- Added test 'xmllint' to check XML markup files
+[0.682s] -- Configuring done (0.4s)
+[0.699s] -- Generating done (0.0s)
+[0.700s] -- Build files have been written to: /home/k/robo/build/beagle_msgs
+[0.708s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[0.711s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[0.855s] [  6%] Built target beagle_msgs__cpp
+[0.859s] [ 16%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[0.859s] [ 16%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[0.859s] [ 16%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[0.868s] [ 19%] [32mBuilding C object CMakeFiles/beagle_msgs__rosidl_generator_c.dir/rosidl_generator_c/beagle_msgs/msg/detail/positioncmd__functions.c.o[0m
+[0.904s] [ 22%] [32m[1mLinking C shared library libbeagle_msgs__rosidl_generator_c.so[0m
+[0.918s] [ 22%] Built target beagle_msgs__rosidl_generator_c
+[0.923s] [ 25%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[0.923s] [ 29%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[1.021s] [ 32%] [32mBuilding CXX object CMakeFiles/beagle_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/beagle_msgs/msg/detail/dds_fastrtps/positioncmd__type_support.cpp.o[0m
+[1.065s] [ 35%] [32mBuilding C object CMakeFiles/beagle_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/beagle_msgs/msg/detail/positioncmd__type_support.c.o[0m
+[1.078s] [ 38%] [32mBuilding CXX object CMakeFiles/beagle_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/beagle_msgs/msg/detail/positioncmd__type_support.cpp.o[0m
+[1.082s] [ 41%] [32mBuilding CXX object CMakeFiles/beagle_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/beagle_msgs/msg/positioncmd__type_support.cpp.o[0m
+[1.090s] [ 45%] [32m[1mLinking C shared library libbeagle_msgs__rosidl_typesupport_introspection_c.so[0m
+[1.107s] [ 45%] Built target beagle_msgs__rosidl_typesupport_introspection_c
+[1.115s] [ 48%] [32mBuilding CXX object CMakeFiles/beagle_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/beagle_msgs/msg/positioncmd__type_support.cpp.o[0m
+[1.139s] [ 51%] [32m[1mLinking CXX shared library libbeagle_msgs__rosidl_typesupport_c.so[0m
+[1.159s] [ 51%] Built target beagle_msgs__rosidl_typesupport_c
+[1.269s] [ 54%] [32m[1mLinking CXX shared library libbeagle_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[1.294s] [ 58%] [32m[1mLinking CXX shared library libbeagle_msgs__rosidl_typesupport_cpp.so[0m
+[1.294s] [ 58%] Built target beagle_msgs__rosidl_typesupport_introspection_cpp
+[1.311s] [ 58%] Built target beagle_msgs__rosidl_typesupport_cpp
+[1.313s] [ 61%] [32m[1mLinking CXX shared library libbeagle_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[1.363s] [ 61%] Built target beagle_msgs__rosidl_typesupport_fastrtps_cpp
+[1.367s] [ 64%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[1.502s] [ 67%] [32mBuilding CXX object CMakeFiles/beagle_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/beagle_msgs/msg/detail/positioncmd__type_support_c.cpp.o[0m
+[1.711s] [ 70%] [32m[1mLinking CXX shared library libbeagle_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[1.760s] [ 70%] Built target beagle_msgs__rosidl_typesupport_fastrtps_c
+[1.765s] [ 70%] Built target beagle_msgs
+[1.770s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[1.980s] [ 74%] Built target beagle_msgs__py
+[1.987s] [ 77%] [32mBuilding C object CMakeFiles/beagle_msgs__python.dir/rosidl_generator_py/beagle_msgs/msg/_positioncmd_s.c.o[0m
+[2.038s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/beagle_msgs/libbeagle_msgs__python.so[0m
+[2.054s] [ 80%] Built target beagle_msgs__python
+[2.060s] [ 90%] [32mBuilding C object CMakeFiles/beagle_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/beagle_msgs/_beagle_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[2.060s] [ 90%] [32mBuilding C object CMakeFiles/beagle_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/beagle_msgs/_beagle_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[2.060s] [ 90%] [32mBuilding C object CMakeFiles/beagle_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/beagle_msgs/_beagle_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[2.106s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/beagle_msgs/beagle_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so[0m
+[2.106s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/beagle_msgs/beagle_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so[0m
+[2.107s] [100%] [32m[1mLinking CXX shared library rosidl_generator_py/beagle_msgs/beagle_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so[0m
+[2.119s] [100%] Built target beagle_msgs__rosidl_typesupport_introspection_c__pyext
+[2.119s] [100%] Built target beagle_msgs__rosidl_typesupport_c__pyext
+[2.143s] [100%] Built target beagle_msgs__rosidl_typesupport_fastrtps_c__pyext
+[2.149s] Invoked command in '/home/k/robo/build/beagle_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/k/robo/install/beagle_first_package:/opt/ros/galactic /home/k/.local/bin/cmake --build /home/k/robo/build/beagle_msgs -- -j8 -l8
+[2.216s] Invoking command in '/home/k/robo/build/beagle_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/k/robo/install/beagle_first_package:/opt/ros/galactic /home/k/.local/bin/cmake --install /home/k/robo/build/beagle_msgs
+[2.236s] -- Install configuration: ""
+[2.236s] -- Up-to-date: /home/k/robo/install/beagle_msgs/share/ament_index/resource_index/rosidl_interfaces/beagle_msgs
+[2.236s] -- Up-to-date: /home/k/robo/install/beagle_msgs/include/beagle_msgs
+[2.236s] -- Up-to-date: /home/k/robo/install/beagle_msgs/include/beagle_msgs/msg
+[2.236s] -- Installing: /home/k/robo/install/beagle_msgs/include/beagle_msgs/msg/positioncmd.h
+[2.236s] -- Up-to-date: /home/k/robo/install/beagle_msgs/include/beagle_msgs/msg/detail
+[2.237s] -- Installing: /home/k/robo/install/beagle_msgs/include/beagle_msgs/msg/detail/positioncmd__type_support.h
+[2.237s] -- Installing: /home/k/robo/install/beagle_msgs/include/beagle_msgs/msg/detail/positioncmd__struct.h
+[2.237s] -- Installing: /home/k/robo/install/beagle_msgs/include/beagle_msgs/msg/detail/positioncmd__functions.c
+[2.237s] -- Installing: /home/k/robo/install/beagle_msgs/include/beagle_msgs/msg/detail/positioncmd__functions.h
+[2.237s] -- Up-to-date: /home/k/robo/install/beagle_msgs/include/beagle_msgs/msg/rosidl_generator_c__visibility_control.h
+[2.237s] -- Up-to-date: /home/k/robo/install/beagle_msgs/share/beagle_msgs/environment/library_path.sh
+[2.237s] -- Installing: /home/k/robo/install/beagle_msgs/share/beagle_msgs/environment/library_path.dsv
+[2.237s] -- Installing: /home/k/robo/install/beagle_msgs/lib/libbeagle_msgs__rosidl_generator_c.so
+[2.237s] -- Set runtime path of "/home/k/robo/install/beagle_msgs/lib/libbeagle_msgs__rosidl_generator_c.so" to ""
+[2.237s] -- Up-to-date: /home/k/robo/install/beagle_msgs/include/beagle_msgs
+[2.237s] -- Up-to-date: /home/k/robo/install/beagle_msgs/include/beagle_msgs/msg
+[2.237s] -- Up-to-date: /home/k/robo/install/beagle_msgs/include/beagle_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[2.237s] -- Up-to-date: /home/k/robo/install/beagle_msgs/include/beagle_msgs/msg/detail
+[2.237s] -- Installing: /home/k/robo/install/beagle_msgs/include/beagle_msgs/msg/detail/positioncmd__rosidl_typesupport_fastrtps_c.h
+[2.237s] -- Installing: /home/k/robo/install/beagle_msgs/lib/libbeagle_msgs__rosidl_typesupport_fastrtps_c.so
+[2.237s] -- Set runtime path of "/home/k/robo/install/beagle_msgs/lib/libbeagle_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[2.237s] -- Up-to-date: /home/k/robo/install/beagle_msgs/include/beagle_msgs
+[2.238s] -- Up-to-date: /home/k/robo/install/beagle_msgs/include/beagle_msgs/msg
+[2.238s] -- Up-to-date: /home/k/robo/install/beagle_msgs/include/beagle_msgs/msg/detail
+[2.238s] -- Installing: /home/k/robo/install/beagle_msgs/include/beagle_msgs/msg/detail/positioncmd__rosidl_typesupport_fastrtps_cpp.hpp
+[2.238s] -- Up-to-date: /home/k/robo/install/beagle_msgs/include/beagle_msgs/msg/detail/dds_fastrtps
+[2.238s] -- Up-to-date: /home/k/robo/install/beagle_msgs/include/beagle_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[2.238s] -- Installing: /home/k/robo/install/beagle_msgs/lib/libbeagle_msgs__rosidl_typesupport_fastrtps_cpp.so
+[2.238s] -- Set runtime path of "/home/k/robo/install/beagle_msgs/lib/libbeagle_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[2.238s] -- Up-to-date: /home/k/robo/install/beagle_msgs/include/beagle_msgs
+[2.238s] -- Up-to-date: /home/k/robo/install/beagle_msgs/include/beagle_msgs/msg
+[2.238s] -- Up-to-date: /home/k/robo/install/beagle_msgs/include/beagle_msgs/msg/detail
+[2.238s] -- Installing: /home/k/robo/install/beagle_msgs/include/beagle_msgs/msg/detail/positioncmd__rosidl_typesupport_introspection_c.h
+[2.238s] -- Installing: /home/k/robo/install/beagle_msgs/include/beagle_msgs/msg/detail/positioncmd__type_support.c
+[2.238s] -- Up-to-date: /home/k/robo/install/beagle_msgs/include/beagle_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[2.238s] -- Installing: /home/k/robo/install/beagle_msgs/lib/libbeagle_msgs__rosidl_typesupport_introspection_c.so
+[2.238s] -- Set runtime path of "/home/k/robo/install/beagle_msgs/lib/libbeagle_msgs__rosidl_typesupport_introspection_c.so" to ""
+[2.238s] -- Installing: /home/k/robo/install/beagle_msgs/lib/libbeagle_msgs__rosidl_typesupport_c.so
+[2.239s] -- Set runtime path of "/home/k/robo/install/beagle_msgs/lib/libbeagle_msgs__rosidl_typesupport_c.so" to ""
+[2.239s] -- Up-to-date: /home/k/robo/install/beagle_msgs/include/beagle_msgs
+[2.239s] -- Up-to-date: /home/k/robo/install/beagle_msgs/include/beagle_msgs/msg
+[2.239s] -- Up-to-date: /home/k/robo/install/beagle_msgs/include/beagle_msgs/msg/detail
+[2.239s] -- Installing: /home/k/robo/install/beagle_msgs/include/beagle_msgs/msg/detail/positioncmd__traits.hpp
+[2.239s] -- Installing: /home/k/robo/install/beagle_msgs/include/beagle_msgs/msg/detail/positioncmd__struct.hpp
+[2.239s] -- Installing: /home/k/robo/install/beagle_msgs/include/beagle_msgs/msg/detail/positioncmd__builder.hpp
+[2.239s] -- Installing: /home/k/robo/install/beagle_msgs/include/beagle_msgs/msg/positioncmd.hpp
+[2.239s] -- Up-to-date: /home/k/robo/install/beagle_msgs/include/beagle_msgs
+[2.239s] -- Up-to-date: /home/k/robo/install/beagle_msgs/include/beagle_msgs/msg
+[2.239s] -- Up-to-date: /home/k/robo/install/beagle_msgs/include/beagle_msgs/msg/detail
+[2.239s] -- Installing: /home/k/robo/install/beagle_msgs/include/beagle_msgs/msg/detail/positioncmd__type_support.cpp
+[2.239s] -- Installing: /home/k/robo/install/beagle_msgs/include/beagle_msgs/msg/detail/positioncmd__rosidl_typesupport_introspection_cpp.hpp
+[2.239s] -- Installing: /home/k/robo/install/beagle_msgs/lib/libbeagle_msgs__rosidl_typesupport_introspection_cpp.so
+[2.239s] -- Set runtime path of "/home/k/robo/install/beagle_msgs/lib/libbeagle_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[2.239s] -- Installing: /home/k/robo/install/beagle_msgs/lib/libbeagle_msgs__rosidl_typesupport_cpp.so
+[2.240s] -- Set runtime path of "/home/k/robo/install/beagle_msgs/lib/libbeagle_msgs__rosidl_typesupport_cpp.so" to ""
+[2.240s] -- Up-to-date: /home/k/robo/install/beagle_msgs/share/beagle_msgs/environment/pythonpath.sh
+[2.240s] -- Installing: /home/k/robo/install/beagle_msgs/share/beagle_msgs/environment/pythonpath.dsv
+[2.240s] -- Installing: /home/k/robo/install/beagle_msgs/lib/python3.8/site-packages/beagle_msgs/__init__.py
+[2.259s] Compiling '/home/k/robo/install/beagle_msgs/lib/python3.8/site-packages/beagle_msgs/__init__.py'...
+[2.261s] -- Up-to-date: /home/k/robo/install/beagle_msgs/lib/python3.8/site-packages/beagle_msgs/msg
+[2.261s] -- Installing: /home/k/robo/install/beagle_msgs/lib/python3.8/site-packages/beagle_msgs/msg/__init__.py
+[2.262s] -- Installing: /home/k/robo/install/beagle_msgs/lib/python3.8/site-packages/beagle_msgs/msg/_positioncmd.py
+[2.262s] -- Installing: /home/k/robo/install/beagle_msgs/lib/python3.8/site-packages/beagle_msgs/msg/_positioncmd_s.c
+[2.262s] -- Installing: /home/k/robo/install/beagle_msgs/lib/python3.8/site-packages/beagle_msgs/beagle_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[2.262s] -- Set runtime path of "/home/k/robo/install/beagle_msgs/lib/python3.8/site-packages/beagle_msgs/beagle_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" to ""
+[2.262s] -- Installing: /home/k/robo/install/beagle_msgs/lib/python3.8/site-packages/beagle_msgs/beagle_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[2.262s] -- Set runtime path of "/home/k/robo/install/beagle_msgs/lib/python3.8/site-packages/beagle_msgs/beagle_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""
+[2.262s] -- Installing: /home/k/robo/install/beagle_msgs/lib/python3.8/site-packages/beagle_msgs/beagle_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[2.262s] -- Set runtime path of "/home/k/robo/install/beagle_msgs/lib/python3.8/site-packages/beagle_msgs/beagle_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""
+[2.262s] -- Installing: /home/k/robo/install/beagle_msgs/lib/libbeagle_msgs__python.so
+[2.263s] -- Set runtime path of "/home/k/robo/install/beagle_msgs/lib/libbeagle_msgs__python.so" to ""
+[2.263s] -- Installing: /home/k/robo/install/beagle_msgs/share/beagle_msgs/msg/Positioncmd.idl
+[2.263s] -- Installing: /home/k/robo/install/beagle_msgs/share/beagle_msgs/msg/Positioncmd.msg
+[2.263s] -- Up-to-date: /home/k/robo/install/beagle_msgs/share/ament_index/resource_index/package_run_dependencies/beagle_msgs
+[2.263s] -- Installing: /home/k/robo/install/beagle_msgs/share/ament_index/resource_index/parent_prefix_path/beagle_msgs
+[2.263s] -- Up-to-date: /home/k/robo/install/beagle_msgs/share/beagle_msgs/environment/ament_prefix_path.sh
+[2.263s] -- Installing: /home/k/robo/install/beagle_msgs/share/beagle_msgs/environment/ament_prefix_path.dsv
+[2.263s] -- Up-to-date: /home/k/robo/install/beagle_msgs/share/beagle_msgs/environment/path.sh
+[2.263s] -- Installing: /home/k/robo/install/beagle_msgs/share/beagle_msgs/environment/path.dsv
+[2.263s] -- Up-to-date: /home/k/robo/install/beagle_msgs/share/beagle_msgs/local_setup.bash
+[2.263s] -- Up-to-date: /home/k/robo/install/beagle_msgs/share/beagle_msgs/local_setup.sh
+[2.263s] -- Up-to-date: /home/k/robo/install/beagle_msgs/share/beagle_msgs/local_setup.zsh
+[2.263s] -- Installing: /home/k/robo/install/beagle_msgs/share/beagle_msgs/local_setup.dsv
+[2.263s] -- Installing: /home/k/robo/install/beagle_msgs/share/beagle_msgs/package.dsv
+[2.263s] -- Up-to-date: /home/k/robo/install/beagle_msgs/share/ament_index/resource_index/packages/beagle_msgs
+[2.263s] -- Up-to-date: /home/k/robo/install/beagle_msgs/share/beagle_msgs/cmake/beagle_msgs__rosidl_generator_cExport.cmake
+[2.263s] -- Up-to-date: /home/k/robo/install/beagle_msgs/share/beagle_msgs/cmake/beagle_msgs__rosidl_generator_cExport-noconfig.cmake
+[2.263s] -- Up-to-date: /home/k/robo/install/beagle_msgs/share/beagle_msgs/cmake/beagle_msgs__rosidl_typesupport_introspection_cExport.cmake
+[2.264s] -- Up-to-date: /home/k/robo/install/beagle_msgs/share/beagle_msgs/cmake/beagle_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[2.264s] -- Up-to-date: /home/k/robo/install/beagle_msgs/share/beagle_msgs/cmake/beagle_msgs__rosidl_typesupport_cExport.cmake
+[2.264s] -- Up-to-date: /home/k/robo/install/beagle_msgs/share/beagle_msgs/cmake/beagle_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[2.264s] -- Up-to-date: /home/k/robo/install/beagle_msgs/share/beagle_msgs/cmake/beagle_msgs__rosidl_generator_cppExport.cmake
+[2.264s] -- Up-to-date: /home/k/robo/install/beagle_msgs/share/beagle_msgs/cmake/beagle_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[2.264s] -- Up-to-date: /home/k/robo/install/beagle_msgs/share/beagle_msgs/cmake/beagle_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[2.264s] -- Up-to-date: /home/k/robo/install/beagle_msgs/share/beagle_msgs/cmake/beagle_msgs__rosidl_typesupport_cppExport.cmake
+[2.264s] -- Up-to-date: /home/k/robo/install/beagle_msgs/share/beagle_msgs/cmake/beagle_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[2.264s] -- Up-to-date: /home/k/robo/install/beagle_msgs/share/beagle_msgs/cmake/rosidl_cmake-extras.cmake
+[2.264s] -- Up-to-date: /home/k/robo/install/beagle_msgs/share/beagle_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.264s] -- Up-to-date: /home/k/robo/install/beagle_msgs/share/beagle_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[2.264s] -- Up-to-date: /home/k/robo/install/beagle_msgs/share/beagle_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[2.264s] -- Up-to-date: /home/k/robo/install/beagle_msgs/share/beagle_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.264s] -- Up-to-date: /home/k/robo/install/beagle_msgs/share/beagle_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[2.264s] -- Up-to-date: /home/k/robo/install/beagle_msgs/share/beagle_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[2.264s] -- Up-to-date: /home/k/robo/install/beagle_msgs/share/beagle_msgs/cmake/beagle_msgsConfig.cmake
+[2.264s] -- Up-to-date: /home/k/robo/install/beagle_msgs/share/beagle_msgs/cmake/beagle_msgsConfig-version.cmake
+[2.264s] -- Up-to-date: /home/k/robo/install/beagle_msgs/share/beagle_msgs/package.xml
+[2.272s] Invoked command in '/home/k/robo/build/beagle_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/k/robo/install/beagle_first_package:/opt/ros/galactic /home/k/.local/bin/cmake --install /home/k/robo/build/beagle_msgs

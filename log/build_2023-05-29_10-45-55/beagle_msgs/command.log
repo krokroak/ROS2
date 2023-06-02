@@ -1,0 +1,2 @@
+Invoking command in '/home/k/robo/build/beagle_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/k/robo/install/beagle_first_package:/opt/ros/galactic /home/k/.local/bin/cmake --build /home/k/robo/build/beagle_msgs -- -j8 -l8
+Invoked command in '/home/k/robo/build/beagle_msgs' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/k/robo/install/beagle_first_package:/opt/ros/galactic /home/k/.local/bin/cmake --build /home/k/robo/build/beagle_msgs -- -j8 -l8

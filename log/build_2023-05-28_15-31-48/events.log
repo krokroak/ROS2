@@ -1,0 +1,10 @@
+[0.000000] (-) TimerEvent: {}
+[0.000931] (beagle_first_package) JobQueued: {'identifier': 'beagle_first_package', 'dependencies': OrderedDict()}
+[0.000992] (beagle_msgs) JobQueued: {'identifier': 'beagle_msgs', 'dependencies': OrderedDict()}
+[0.001024] (beagle_first_package) JobStarted: {'identifier': 'beagle_first_package'}
+[0.014066] (beagle_msgs) JobStarted: {'identifier': 'beagle_msgs'}
+[0.099189] (-) TimerEvent: {}
+[0.199569] (-) TimerEvent: {}
+[0.287715] (beagle_first_package) JobEnded: {'identifier': 'beagle_first_package', 'rc': 0}
+[0.288477] (beagle_msgs) JobEnded: {'identifier': 'beagle_msgs', 'rc': 'SIGINT'}
+[0.299031] (-) EventReactorShutdown: {}

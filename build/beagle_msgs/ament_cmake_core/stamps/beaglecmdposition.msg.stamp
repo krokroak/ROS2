@@ -1,0 +1,3 @@
+int16 bealge_count
+int16 beagle_move_cmd
+int16 beagle_node

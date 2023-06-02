@@ -1,0 +1,4 @@
+Invoking command in '/home/k/robo/build/beagle_msgs': /home/k/.local/bin/cmake --build /home/k/robo/build/beagle_msgs -- -j8 -l8
+Invoked command in '/home/k/robo/build/beagle_msgs' returned '0': /home/k/.local/bin/cmake --build /home/k/robo/build/beagle_msgs -- -j8 -l8
+Invoking command in '/home/k/robo/build/beagle_msgs': /home/k/.local/bin/cmake --install /home/k/robo/build/beagle_msgs
+Invoked command in '/home/k/robo/build/beagle_msgs' returned '0': /home/k/.local/bin/cmake --install /home/k/robo/build/beagle_msgs

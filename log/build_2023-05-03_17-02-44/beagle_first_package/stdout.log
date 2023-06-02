@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/beagle_first_package/beagle_first_package.egg-info
+writing ../../build/beagle_first_package/beagle_first_package.egg-info/PKG-INFO
+writing dependency_links to ../../build/beagle_first_package/beagle_first_package.egg-info/dependency_links.txt
+writing entry points to ../../build/beagle_first_package/beagle_first_package.egg-info/entry_points.txt
+writing requirements to ../../build/beagle_first_package/beagle_first_package.egg-info/requires.txt
+writing top-level names to ../../build/beagle_first_package/beagle_first_package.egg-info/top_level.txt
+writing manifest file '../../build/beagle_first_package/beagle_first_package.egg-info/SOURCES.txt'
+reading manifest file '../../build/beagle_first_package/beagle_first_package.egg-info/SOURCES.txt'
+writing manifest file '../../build/beagle_first_package/beagle_first_package.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/k/robo/build/beagle_first_package/build
+creating /home/k/robo/build/beagle_first_package/build/lib
+creating /home/k/robo/build/beagle_first_package/build/lib/beagle_first_package
+copying beagle_first_package/__init__.py -> /home/k/robo/build/beagle_first_package/build/lib/beagle_first_package
+copying beagle_first_package/beagle_first_node.py -> /home/k/robo/build/beagle_first_package/build/lib/beagle_first_package
+running install
+running install_lib
+creating /home/k/robo/install/beagle_first_package/lib/python3.8/site-packages/beagle_first_package
+copying /home/k/robo/build/beagle_first_package/build/lib/beagle_first_package/__init__.py -> /home/k/robo/install/beagle_first_package/lib/python3.8/site-packages/beagle_first_package
+copying /home/k/robo/build/beagle_first_package/build/lib/beagle_first_package/beagle_first_node.py -> /home/k/robo/install/beagle_first_package/lib/python3.8/site-packages/beagle_first_package
+byte-compiling /home/k/robo/install/beagle_first_package/lib/python3.8/site-packages/beagle_first_package/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/k/robo/install/beagle_first_package/lib/python3.8/site-packages/beagle_first_package/beagle_first_node.py to beagle_first_node.cpython-38.pyc
+running install_data
+creating /home/k/robo/install/beagle_first_package/share/ament_index
+creating /home/k/robo/install/beagle_first_package/share/ament_index/resource_index
+creating /home/k/robo/install/beagle_first_package/share/ament_index/resource_index/packages
+copying resource/beagle_first_package -> /home/k/robo/install/beagle_first_package/share/ament_index/resource_index/packages
+copying package.xml -> /home/k/robo/install/beagle_first_package/share/beagle_first_package
+running install_egg_info
+Copying ../../build/beagle_first_package/beagle_first_package.egg-info to /home/k/robo/install/beagle_first_package/lib/python3.8/site-packages/beagle_first_package-0.0.0-py3.8.egg-info
+running install_scripts
+Installing beagle_first_node script to /home/k/robo/install/beagle_first_package/lib/beagle_first_package
+writing list of installed files to '/home/k/robo/build/beagle_first_package/install.log'

@@ -1,0 +1,6 @@
+[console_scripts]
+beagle_action_server = beagle_first_package.beagle_action_server:main
+beagle_first_node = beagle_first_package.beagle_first_node:main
+beagle_first_pub = beagle_first_package.beagle_first_pub:main
+beagle_first_sub = beagle_first_package.beagle_first_sub:main
+beagle_service_server = beagle_first_package.beagle_service_server:main

@@ -1,0 +1,18 @@
+[0.283s] Invoking command in '/home/k/robo/build/beagle_msgs': CMAKE_PREFIX_PATH=/home/k/robo/install/beagle_first_package:/opt/ros/galactic /home/k/.local/bin/cmake /home/k/robo/src/beagle_msgs -DCMAKE_INSTALL_PREFIX=/home/k/robo/install/beagle_msgs
+[0.310s] -- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+[0.326s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.326s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.387s] -- Found rosidl_default_generators: 1.1.1 (/opt/ros/galactic/share/rosidl_default_generators/cmake)
+[0.388s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.391s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[0.493s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.510s] [31mCMake Error at /opt/ros/galactic/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:93 (message):
+[0.510s]   rosidl_generate_interfaces() the passed file 'msg/beaglecmdposition.msg'
+[0.510s]   doesn't exist relative to the CMAKE_CURRENT_SOURCE_DIR
+[0.510s]   '/home/k/robo/src/beagle_msgs'
+[0.510s] Call Stack (most recent call first):
+[0.510s]   CMakeLists.txt:14 (rosidl_generate_interfaces)
+[0.510s] 
+[0.511s] [0m
+[0.511s] -- Configuring incomplete, errors occurred!
+[0.519s] Invoked command in '/home/k/robo/build/beagle_msgs' returned '1': CMAKE_PREFIX_PATH=/home/k/robo/install/beagle_first_package:/opt/ros/galactic /home/k/.local/bin/cmake /home/k/robo/src/beagle_msgs -DCMAKE_INSTALL_PREFIX=/home/k/robo/install/beagle_msgs

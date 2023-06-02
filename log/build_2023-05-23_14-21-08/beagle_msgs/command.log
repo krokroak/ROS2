@@ -1,0 +1,6 @@
+Invoking command in '/home/k/robo/build/beagle_msgs': CMAKE_PREFIX_PATH=/home/k/robo/install/beagle_first_package:/opt/ros/galactic /home/k/.local/bin/cmake /home/k/robo/src/beagle_msgs -DCMAKE_INSTALL_PREFIX=/home/k/robo/install/beagle_msgs
+Invoked command in '/home/k/robo/build/beagle_msgs' returned '0': CMAKE_PREFIX_PATH=/home/k/robo/install/beagle_first_package:/opt/ros/galactic /home/k/.local/bin/cmake /home/k/robo/src/beagle_msgs -DCMAKE_INSTALL_PREFIX=/home/k/robo/install/beagle_msgs
+Invoking command in '/home/k/robo/build/beagle_msgs': CMAKE_PREFIX_PATH=/home/k/robo/install/beagle_first_package:/opt/ros/galactic /home/k/.local/bin/cmake --build /home/k/robo/build/beagle_msgs -- -j8 -l8
+Invoked command in '/home/k/robo/build/beagle_msgs' returned '0': CMAKE_PREFIX_PATH=/home/k/robo/install/beagle_first_package:/opt/ros/galactic /home/k/.local/bin/cmake --build /home/k/robo/build/beagle_msgs -- -j8 -l8
+Invoking command in '/home/k/robo/build/beagle_msgs': CMAKE_PREFIX_PATH=/home/k/robo/install/beagle_first_package:/opt/ros/galactic /home/k/.local/bin/cmake --install /home/k/robo/build/beagle_msgs
+Invoked command in '/home/k/robo/build/beagle_msgs' returned '0': CMAKE_PREFIX_PATH=/home/k/robo/install/beagle_first_package:/opt/ros/galactic /home/k/.local/bin/cmake --install /home/k/robo/build/beagle_msgs

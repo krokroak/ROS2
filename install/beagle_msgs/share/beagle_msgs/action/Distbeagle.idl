@@ -1,0 +1,32 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from beagle_msgs/action/Distbeagle.action
+// generated code does not contain a copyright notice
+
+
+module beagle_msgs {
+  module action {
+    struct Distbeagle_Goal {
+      @verbatim (language="comment", text=
+        " 라이다 거리")
+      float lidar_dist;
+
+      int32 plus_arrow;
+
+      int32 minus_arrow;
+    };
+    struct Distbeagle_Result {
+      @verbatim (language="comment", text=
+        "Result" "\n"
+        " 비글이 존재하는 칸의 넘버?")
+      int32 count_node_bot_1;
+
+      int32 count_node_bot_2;
+    };
+    struct Distbeagle_Feedback {
+      @verbatim (language="comment", text=
+        "Feedback" "\n"
+        " 비글의 칸수차이")
+      int32 between_beagle12;
+    };
+  };
+};

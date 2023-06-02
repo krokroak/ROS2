@@ -1,0 +1,3 @@
+/home/k/robo/build/beagle_msgs/rosidl_adapter/beagle_msgs:msg/CmdAndPoseVel.idl
+/home/k/robo/build/beagle_msgs/rosidl_adapter/beagle_msgs:action/Distbeagle.idl
+/home/k/robo/build/beagle_msgs/rosidl_adapter/beagle_msgs:srv/Beagleposition.idl

@@ -1,0 +1,7 @@
+/home/k/.local/lib/python3.8/site-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+  File "/home/k/robo/install/beagle_first_package/lib/python3.8/site-packages/beagle_first_package/beagle_first_sub.py", line 18
+    'topic',
+    ^
+SyntaxError: invalid syntax
+

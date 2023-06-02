@@ -1,0 +1,10 @@
+[0.273s] Invoking command in '/home/k/robo/build/beagle_msgs': CMAKE_PREFIX_PATH=/home/k/robo/install/beagle_first_package:/opt/ros/galactic /home/k/.local/bin/cmake /home/k/robo/src/beagle_msgs -DCMAKE_INSTALL_PREFIX=/home/k/robo/install/beagle_msgs
+[0.300s] -- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+[0.321s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.321s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.385s] [31mCMake Error at CMakeLists.txt:13 (rosidl_generate_interfaces):
+[0.385s]   Unknown CMake command "rosidl_generate_interfaces".
+[0.385s] 
+[0.386s] [0m
+[0.386s] -- Configuring incomplete, errors occurred!
+[0.390s] Invoked command in '/home/k/robo/build/beagle_msgs' returned '1': CMAKE_PREFIX_PATH=/home/k/robo/install/beagle_first_package:/opt/ros/galactic /home/k/.local/bin/cmake /home/k/robo/src/beagle_msgs -DCMAKE_INSTALL_PREFIX=/home/k/robo/install/beagle_msgs

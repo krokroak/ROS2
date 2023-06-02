@@ -1,0 +1,6 @@
+int32 user_fir
+int32 user_sec
+
+---
+int32 beagle_fir_position
+int32 beagle_sec_position

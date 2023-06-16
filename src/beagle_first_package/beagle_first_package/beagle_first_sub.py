@@ -26,8 +26,10 @@ wheel_speed = 15*end_game
 
 beagle.start_lidar()
 beagle.wait_until_lidar_ready()
+# beagle.lidar_chart()
 print('Lidar Starts')
 
+cnt = 0
 
 class direct_mode_sub(Node) :
      def __init__(self) :
@@ -184,16 +186,22 @@ class direct_mode_sub(Node) :
                right_front_distance = beagle.right_front_lidar()
 
                if 250 <= rear_distance <= 400 or 250 <= right_distance <= 400 or 250 <= right_rear_distance <= 400:
-                    beagle.sound("engine", 1)
+                    cnt = 1
+                    if cnt == 1:
+                         beagle.sound("engine", 1)
                     print('Player is in 3 Tiles Back')
-                    time.sleep(5)
+                    cnt+=1
+                    if cnt == 2000:
+                         cnt = 0
+                    #time.sleep(1)
 
                if 60 < rear_distance < 250 or 60 < right_distance < 250 or 60 < right_rear_distance < 250:
                     beagle.sound("siren", 1)
                     print('Player is in 1 Tile Back')
-                    time.sleep(5)
+                    #time.sleep(1)
 
                if rear_distance <= 60:
+                    beagle.stop()
                     beagle.sound("sad", 1)
                     print('Player Caught the Beagle')
                     print('Beagle is the Loser..')
@@ -204,14 +212,15 @@ class direct_mode_sub(Node) :
                if 250 <= front_distance <= 400 or 250 <= right_front_distance <= 400:
                     beagle.sound("march", 1)
                     print('Player is in 3 Tiles Forward')
-                    time.sleep(5)
+                    #time.sleep(1)
 
                if 60 < front_distance < 250 or 60 < right_front_distance < 250:
                     beagle.sound("good job", 1)
                     print('Player is in 1 Tile Forward')
-                    time.sleep(5)
+                    #time.sleep(1)
 
-               if front_distance <= target_distance:
+               if front_distance <= 60:
+                    beagle.stop()
                     beagle.sound("happy", 1)
                     print('Beagle Caught the Player')
                     print('Beagle is the Winner!!')

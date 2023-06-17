@@ -20,14 +20,14 @@ def generate_launch_description():
             #     output='screen'),
           
             Node(
-                namespace="beagle_lidar_action_client",
+                name='beagle_action_client',
                 package='beagle_first_package',
                 executable='beagle_action_client',
                 output='screen'
             ),
 
               Node(
-                namespace='dice_and_point_pub',
+                name='beagle_first_pub',
                 package='beagle_first_package',
                 executable='beagle_first_pub',
                 output='screen'

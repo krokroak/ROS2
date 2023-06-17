@@ -26,10 +26,9 @@ wheel_speed = 15*end_game
 
 beagle.start_lidar()
 beagle.wait_until_lidar_ready()
-# beagle.lidar_chart()
+beagle.lidar_chart()
 print('Lidar Starts')
 
-cnt = 0
 
 class direct_mode_sub(Node) :
      def __init__(self) :
@@ -50,9 +49,9 @@ class direct_mode_sub(Node) :
                Distbeagle,
                'distbeagle',
                self.execute_callback,
-               callback_group=self.callback_group ) # 콜백 함수 병렬 처리용 
+               callback_group = self.callback_group ) # 콜백 함수 병렬 처리용 
         
-          self.publisher = self.create_publisher(Float64, 'target_distance', 10)
+          #self.publisher = self.create_publisher(Float64, 'target_distance', 10)
           self.current_distance = 0.0
 
           self.declare_parameter('end_game', 1) # 파라미터
@@ -135,7 +134,7 @@ class direct_mode_sub(Node) :
                     beagle.move_forward_pulse(wheel_pulse, self.wheel_speed)
                     move_point += 1
                     if move_point == 3 or move_point == 8 or move_point == 11 or move_point == 16 :
-                         #eagle.stop()
+                         #beagle.stop()
                          beagle.turn_right_pulse(705,self.wheel_speed)
                     if move_point > 16 :
                          move_point -= 16
@@ -186,13 +185,8 @@ class direct_mode_sub(Node) :
                right_front_distance = beagle.right_front_lidar()
 
                if 250 <= rear_distance <= 400 or 250 <= right_distance <= 400 or 250 <= right_rear_distance <= 400:
-                    cnt = 1
-                    if cnt == 1:
-                         beagle.sound("engine", 1)
+                    beagle.sound("engine", 1)
                     print('Player is in 3 Tiles Back')
-                    cnt+=1
-                    if cnt == 2000:
-                         cnt = 0
                     #time.sleep(1)
 
                if 60 < rear_distance < 250 or 60 < right_distance < 250 or 60 < right_rear_distance < 250:
